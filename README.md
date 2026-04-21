@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 <!--
-**zulu74/zulu74** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**zulu74/zulu74** 
 
 Here are some ideas to get you started:
 
