@@ -1,0 +1,100 @@
+# Hey, I'm James 👋
+
+I'm a cloud security engineer based in South Yorkshire, UK. For the past eight years I've been building [SentinelIT NextGen Security](https://sentinelitnextgen.co.za) — a production cybersecurity SaaS platform I started from scratch and have been running ever since. No co-founder, no inherited codebase. Just a lot of late nights, real problems, and production incidents that taught me more than any course ever could.
+
+The platform has processed over 28,000 security events, blocked threats automatically, and held 99.9% uptime without a breach. I'm proud of that.
+
+---
+
+## What I actually do
+
+My day-to-day is cloud security engineering — AWS and Azure in production, not in a lab. I design security architecture, tune CSPM policies in Wiz and Prisma Cloud, review attack paths, build Terraform infrastructure, and write the Python automation that stops the same incident happening twice.
+
+I've sat in CAB meetings representing security, written HLD/LLD documentation, done incident response at 2am, and presented threat briefings to non-technical boards. The full range.
+
+Right now I'm finishing AZ-400 (DevSecOps) and AZ-305 (Azure Solutions Architect Expert) on Microsoft Learn — Level 10, 65 badges, 106,000+ XP — alongside AWS Solutions Architect Associate and AWS Security Specialty.
+
+---
+
+## What I've built
+
+### 🛡️ SentinelIT Guardian
+**[sentinelitnextgen.co.za](https://sentinelitnextgen.co.za) · [GitHub](https://github.com/zulu74/sentinelit-nextgen-security)**
+
+Three product suites covering everything from AI threat detection to industrial OT/ICS security. The bit I'm most proud of is the military-grade vulnerability scanner — 6 layers, aligned with the NIST risk-based model they announced in April 2026. It pulls from CISA KEV, EPSS scores from FIRST.org, and CVSS to prioritise findings the way they should be: by actual exploitation likelihood, not just theoretical severity.
+
+Some numbers that mean something to me:
+- **ISO 27001: 100%** — verified by the automated compliance engine, not self-assessed
+- **12 industrial protocols** monitored — S7comm, IEC 61850, HART-IP and others that most tools don't touch
+- **90% reduction in false positives** from the AI event classifier
+- **1,569 CISA KEV CVEs** cross-referenced on every scan
+- **8 years** running in production without a breach
+
+The compliance reports auto-generate every Monday. The threat digest lands in my inbox every morning at 07:00 UTC. The auto-block engine fires the moment a threat score hits 80. Most of this runs while I sleep.
+
+---
+
+## Tech I use regularly
+
+```
+Cloud       AWS (Security Hub, GuardDuty, WAF, Config, CloudTrail, KMS, IAM)
+            Azure (Defender for Cloud, Sentinel, Key Vault, Log Analytics)
+
+CSPM        Wiz · Prisma Cloud · Microsoft Defender for Cloud
+
+IaC         Terraform · CloudFormation · ARM/Bicep
+
+DevSecOps   CI/CD security · SAST/DAST · shift-left · container security (EKS/ECS)
+
+Languages   Python · Bash · PowerShell · SQL · JavaScript
+
+Compliance  NIS2 · ISO 27001 · CIS · GDPR · PCI-DSS · SOC 2 · NIST CSF
+```
+
+---
+
+## Certifications
+
+A few I've completed recently that I actually found useful:
+
+- **ISC² Certified in Cybersecurity (CC)** — 2025
+- **Harvard CS50** (Computer Science + AI with Python) — 2025
+- **ICS/SCADA Cybersecurity Red Team Leaders** — 2026
+- **Cisco CyberOps Associate** — 92%, 2026
+- **Cisco Ethical Hacker** — 2025
+- **Industrial Cybersecurity Essentials** — 2026
+
+In progress: AZ-400, AZ-305, AWS Solutions Architect Associate, AWS Security Specialty.
+
+Full transcript: [Microsoft Learn](https://learn.microsoft.com/en-us/users/jameszulu-0306/transcript/d9ke6cg2wqr051y)
+
+---
+
+## A few things I think about a lot
+
+**On CVEs and prioritisation** — NIST just announced that CVE submissions increased 263% between 2020 and 2025 and they can no longer enrich every submission. The industry has known for years that CVSS scores alone are a poor way to prioritise patching. Only 1% of CVEs ever get exploited in the wild. EPSS and KEV cross-referencing are how you find that 1%. I built this into SentinelIT before it became the official NIST model.
+
+**On automation** — if I'm doing something manually for the third time, I write a script. Most of my best work has come from being irritated by a repetitive task.
+
+**On industrial security** — OT/ICS is the most underprotected part of most enterprise environments. The tools that exist are either extremely expensive or extremely specialised. There's a real gap in the market for something that does IT and OT security in one platform without the £200k price tag.
+
+---
+
+## Currently
+
+- Building out SentinelIT's EU market presence
+- Based in South Yorkshire, UK (Partner Visa — no sponsorship needed)
+- Open to Cloud Security Engineer, DevSecOps, and CSPM roles
+- Available immediately for remote work
+
+---
+
+## Get in touch
+
+- 📧 jameszulu@sentinelitnextgen.co.za
+- 💼 [LinkedIn](https://linkedin.com/in/jameszulu)
+- 🌐 [sentinelitnextgen.co.za](https://sentinelitnextgen.co.za)
+
+---
+
+*I don't post a lot on GitHub — most of my work is proprietary platform code. But what's here reflects how I think about security problems and how I build things.*
